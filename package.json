@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/petrenkodmytro/goit-node-hw-01#readme",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "nanoid": "^3.3.4",
+    "yargs": "^17.7.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
