@@ -63,6 +63,7 @@ const updateById = async (contactId, data) => {
 };
 
 // експорт функцій
+// Дві головні ідеї CommonJS-модулів: об'єкт exports, що містить те, що модуль хоче зробити доступним для інших частин системи, та функцію require, яка використовується одними модулями для імпорту об'єкта exports з інших.
 module.exports = {
   getListContacts,
   getContactById,
@@ -70,3 +71,4 @@ module.exports = {
   addContact,
   updateById,
 };
+// Конструкція module — спеціальний об'єкт, який введено в Node.js заради реалізації модулів Common.js. Все те, що буде надано його властивості exports, буде експортуватися з цього модуля.
